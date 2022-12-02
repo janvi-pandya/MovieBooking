@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    margin-top:0;
+    height: 3rem;
+    align-content: center;
+}
+.nav {
+    display: flex;
+    margin-top:0;
+    align-self: center;
+}
+.body {
+    display: flex;
+    margin: 1.5rem;
+}
+.card {
+    padding: 20px;
+    margin: 10px;
+    width: 20rem;
+    height:fit-content;
+}
+.footer {
+    margin-bottom: 0;
+}
+.outer{
+    width: 100%;
+    height: fit-content;
+    overflow-x:auto;
+    overflow-y:hidden ;
+    display: flex;
+    flex-direction: row;
+}
